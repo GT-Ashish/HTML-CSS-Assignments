@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    font-family: Montserrat;
+}
+p{
+    font-weight: bold;
+    font-size: 50px;
+    Margin-top: 10px;
+    Margin-bottom: 15px;
+}
+span{
+    font-size: 24px;
+}
