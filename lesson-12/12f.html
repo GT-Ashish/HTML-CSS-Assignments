@@ -1,0 +1,61 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox practice</title>
+        <style>
+            *{
+                font-family: arial;
+            }
+
+            .header{
+                display: flex;
+                justify-content: space-between;
+                height: 40px;
+                background-color: rgb(139, 96, 247);
+                align-items: center;
+            }
+
+            .flex-row{
+                display: flex;
+                justify-content:space-between;
+            }
+
+            .home{
+                margin-left: 15px;
+                margin-right: 50px;
+                font-size: 12px;
+                font-weight: bold;
+                color: white;
+            }
+
+            .download-button{
+                margin-right: 10px;
+                margin-left: 50px;
+                color: white;
+                background-color: rgb(139, 96, 247);
+                border: 1px white solid;
+                padding: 4px 12px;
+                border-radius: 2px;
+            }
+
+            .search-bar{
+                flex: 1;
+                height: 25px;
+                max-width: 700px;
+                border-radius: 30px;
+                border: none;
+
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <div class="Home">Home</div>
+            <input class="search-bar" placeholder="Search" input-value="text">
+            <button class="download-button">Download</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox practice</title>
+        <style>
+            div{
+                font-family: arial;
+            }
+
+            p{
+                margin: 3px;
+            }
+           
+            .flex-row{
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+
+            img{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 25px;
+            } 
+
+            .follow-button{
+                color: white;
+                font-weight: bold;
+                font-size: 16px;
+                background-color: rgb(26, 91, 195);
+                border: none;
+                padding: 9px 12px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .user-details{
+                margin-left: 12px;
+                width: 200px;
+            }
+
+            .user-name{
+                font-weight: bold;
+            }
+
+            .other-user-details{
+                color: grey;
+            }
+
+        </style>
+    </head>
+    <body>
+            <div class="flex-row">
+                <img src="../cat.jpg" alt="cat-profile-picture">
+                <div class="user-details">
+                    <p class="user-name">
+                        oliver
+                    </p>
+                    <div class="other-user-details">
+                    <p>
+                        the cat
+                    </p>
+                    <p style="font-size: 14px">
+                        Popular
+                    </p>
+                    </div>   
+                </div>
+                <button class="follow-button">
+                    Follow
+                </button>
+            </div>
+
+              <div class="flex-row">
+                <img src="../cat.jpg" alt="cat-profile-picture">
+                <div class="user-details">
+                    <p class="user-name">
+                        Mimi
+                    </p>
+                    <div class="other-user-details">
+                    <p>
+                        Sleepy Cat
+                    </p>
+                    <p style="font-size: 14px">
+                        Popular
+                    </p>
+                    </div>   
+                </div>
+                <button class="follow-button">
+                    Follow
+                </button>
+            </div>
+
+              <div class="flex-row">
+                <img src="../cat.jpg" alt="cat-profile-picture">
+                <div class="user-details">
+                    <p class="user-name">
+                        Rex
+                    </p>
+                    <div class="other-user-details">
+                    <p>
+                       Happy Bulldog
+                    </p>
+                    <p style="font-size: 14px">
+                        Popular
+                    </p>
+                    </div>   
+                </div>
+                <button class="follow-button">
+                    Follow
+                </button>
+            </div>
+
+
+
+    </body>
+</html>
