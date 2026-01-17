@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Tweet</title>
+            <style>
+                div{
+                    font-size: 9px;
+                    font-family: Arial;
+                    line-height: 12px;
+                }
+
+                p{
+                    margin: 0;
+                }
+               .box{
+                display: flex;
+                border: 1px solid grey;
+                width: 240px;
+                padding:8px;
+               }
+
+               .tweet-details{
+                flex: 1;
+                margin-bottom: 8px;
+               }
+
+               .tweet-attachments{
+                display: flex;
+                flex: 1;
+                border: 1px rgb(202, 201, 201) solid;
+                border-radius: 8px;
+                overflow: hidden;
+               }
+
+               .attachment-link{
+                padding: 8px;
+                flex: 2;
+               }
+
+               .user-profile-picture{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 8px;
+               }
+
+               .grey-area{
+                flex: 1;
+                background-color: rgb(210, 209, 209);
+               }
+
+               .username{
+                font-weight: bold;
+               }
+
+               .user-id{
+                color: grey;
+               }
+            </style>
+        </head>
+        <body>
+            <div class="box">
+                <div class="column-1">
+                    <img class="user-profile-picture" src="../cat.jpg">
+                </div>
+                <div class="column-2">
+                    <div class="tweet-details">
+                        <p class="username">
+                        supersimple.dev 
+                            <span class="user-id">
+                                @SuperSimpleDev
+                            </span>
+                        </p>
+                        <p>
+                        What is backend web development? A complete overview. New video is up!
+                        </p>
+                    </div>
+                    <div class="tweet-attachments">
+                        <div class="grey-area"></div>
+                        <div class="attachment-link">
+                            <div style="color: grey">youtube.com</div>
+                            <p>
+                                Backend web development - a complete overview (2021)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>

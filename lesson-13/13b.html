@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox practice</title>
+        <style>
+            .first-container{
+                background-color: pink;
+                width: 100px;
+            }
+            
+            .second-container{
+                background-color: aqua;
+                width: 200;
+            }
+
+            .flex-container{
+                display: flex;
+            }
+
+            .row-2{
+                background-color: black;
+                color: white;
+                margin-top: 0;
+                
+            } 
+
+            .flex-row{
+                display: flex;
+                justify-content: space-between;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="first-container"></div>
+            <div class="second-container">
+                <div>row1</div>
+                <div class="flex-row">
+                    <p class="row-2">row2</p>
+                    <p class="row-2">row2</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>gmail inbox message</title>
+            <style>
+                *{
+                    font-family: Arial;
+                    margin: 0;
+                }
+                .user-profile-picture{
+                    width: 60px;
+                    height: 60px;
+                    object-fit: cover;
+                    border-radius: 30px;
+                }
+
+                .email-container{
+                    margin: 8px;
+                    width: 520px;
+                    padding: 12px 20px;
+                    box-shadow:0 0 8px rgba(0, 0, 0, 0.25);
+                    border-radius: 3px;
+                }
+
+                .email-text-container{
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 27px;
+                }
+
+                .email{
+                    display: flex;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    align-items: center;
+                }
+
+                .email-first-row{
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .email-text-container{
+                    flex: 1;
+                    margin-left: 10px;
+                }
+
+                .grey-text, .email-time, .email-preview{
+                    color: grey;
+                }
+
+                .email-senders-name{
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+
+                .email-subject{
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+
+                .email-preview{
+                    font-size: 21px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="email-container">
+                <div class="grey-text">ALL INBOXES</div>
+                <div class="email">
+                    <div>
+                        <img class="user-profile-picture" src="../cat.jpg">
+                    </div>
+                    
+                    <div class="email-text-container">
+                        <div class="email-first-row">
+                            <div class="email-senders-name">
+                                Chewy Promotions
+                            </div>
+                            <div class="email-time">
+                                4:58 PM
+                            </div>
+                        </div>
+                        <div class="email-subject">
+                            Biggest sales of the year!
+                        </div>
+                        <div class="email-preview">
+                            Hey there! We're writing to tellyou about our...
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </body>
+    </html>
