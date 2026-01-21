@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>discord sidebar</title>
+        <style>
+            body{
+                margin: 0;
+                font-family: arial;
+            }
+            .sidebar{
+                display: flex;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+            }
+            .first-column{
+                width: 50px;
+                padding: 15px 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                background-color: rgb(15, 15, 15);
+            }
+
+            .first-column img{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 20px;
+                /* margin: 0 auto; */
+            }
+
+            .second-column{
+                background-color: rgb(43, 43, 43);
+                width: 150px;
+                padding: 15px 15px;
+                color: grey;
+            }
+
+            .second-column .first-row{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .info-text{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="sidebar">
+            <div class="first-column">
+                <img src="..\cat.jpg">
+                <img src="..\cat.jpg">
+                <img src="..\cat.jpg">
+            </div>
+            <div class="second-column">
+                <div class="first-row">
+                    <div class="info-text">
+                        INFO
+                    </div>
+                    <div>
+                        +
+                    </div>
+                </div>
+                <p># new-videos</p>
+                <p># updates</p>
+                <p># faq</p>
+            </div>
+       </div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positon-practice</title>
+    <style>
+        body{
+            height: 3000px;
+            font-family: Arial;
+        }
+        
+        .right-sidebar{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            width: 100px;
+            background-color: green;
+            color: white;
+        }
+
+        .overlay{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .modal{
+            height:100px;
+            width: 300px;
+            /* margin: 0 auto; */
+            background-color: white;
+            line-height: 5px;
+            padding: 0 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="right-sidebar">
+        right-sidebar
+    </div>
+    <div class="overlay">
+        <div class="modal">
+            <h2>Modal Title</h2>
+            <p>This is a modal</p>
+            <button>Close</button>
+        </div>
+    </div>
+</body>
+</html>
